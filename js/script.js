@@ -83,6 +83,6 @@ function verificaCampo(campo){
     if(!validadorDeInput){
         mensagemErro.textContent = mensagem ;
     }else{
-        mensagemErro = "" ;
+        mensagemErro.textContent = "";
     }
 }
